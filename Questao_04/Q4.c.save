@@ -1,0 +1,11 @@
+#include <opencv2/opencv.h>
+#include <stdio.h>
+
+int main (int argc, char **argv)
+{
+   IplImage * image = cvLoadImage("image.bmp", CV_LOAD_UNCHANGED);
+   
+
+   if(!image){
+}
+}
