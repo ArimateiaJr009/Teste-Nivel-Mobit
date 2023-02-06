@@ -70,6 +70,6 @@ Gerencia de threads em C++ (Produtor-Consumidor). Execute o seguinte comando no 
 
     
 ## Questão 4. 
+QUESTAO INCOMPLETA.
 
----------
 

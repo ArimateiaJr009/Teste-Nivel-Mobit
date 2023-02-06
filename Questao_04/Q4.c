@@ -19,12 +19,16 @@ void process_2()
 
 int main (int argc, char **argv)
 {
-  IpLImage *image = cvLoadImage("carro.jpeg",CV_LOAD_IMAGE_UNCHANGED);
-  
+  int f_d[2];
+  pid_t p_id;
+
+IpLImage *image = cvLoadImage("carro,jpeg",CV_LOAD_IMAGE_UNCHANGED);
  if (!image)
   {
     printf("Erro o carregar image");
   } 
+
+ pipe(f_d);
 
 }
 
