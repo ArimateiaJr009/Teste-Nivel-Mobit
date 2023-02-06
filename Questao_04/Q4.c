@@ -10,9 +10,12 @@ void process_1()
 
 }
 
-void process_2()
+void process_2(int pipe[2])
 {
-
+  int size;
+  int image_data[999999];
+//o erro esta aqui
+  read(f_d[2],&image_data,sizeof(size))
 }
 
 
